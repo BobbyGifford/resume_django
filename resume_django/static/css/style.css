@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #feature {
     background: url(../img/resume_bg1.jpg) no-repeat top center fixed/cover;
     position: relative;
@@ -41,4 +45,3 @@
     padding: 1rem;
     background: rgba(37, 37, 37, 0.8);
 }
-

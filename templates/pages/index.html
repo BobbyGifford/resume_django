@@ -13,8 +13,8 @@
                     <img src="{% static 'img/profile_pic.jpg' %}" style="width: 40%; height: auto">
                     <br>
                     <br>
-                    <button class="btn btn-info">Projects</button>
-                    <button class="btn btn-info">About Me</button>
+                    <a href="#projects" class="btn btn-info">Projects</a>
+                    <a href="#about" class="btn btn-info">About Me</a>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                                 <p class="card-text">{{ project.description }}</p>
                                 {# Check if link exists #}
                                 {% if project.live_link %}
-                                    <a href="{{ project.live_link }}" class="btn btn-info">Visit</a>
+                                    <a href="{{ project.live_link }}" class="btn btn-info btn-block">Visit</a>
                                 {% endif %}
                             </div>
                         </div>
