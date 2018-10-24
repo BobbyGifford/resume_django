@@ -1,0 +1,44 @@
+#feature {
+    background: url(../img/resume_bg1.jpg) no-repeat top center fixed/cover;
+    position: relative;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#feature .feature-data {
+    min-height: 60vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+#feature .overlay {
+    content: '';
+    position: absolute;
+    padding-top: 5vh;
+    left: 0;
+    min-height: 60vh;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8);
+}
+
+#projects {
+    padding-top: 10vh;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#about {
+    color: #fff;
+    background-color: black;
+    min-height: 100vh;
+}
+
+#about .area {
+    padding-top: 20vh;
+}
+
+#about .content {
+    padding: 1rem;
+    background: rgba(37, 37, 37, 0.8);
+}
+
