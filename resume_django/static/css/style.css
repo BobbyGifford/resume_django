@@ -3,7 +3,7 @@ html {
 }
 
 #feature {
-    background: url(../img/resume_bg1.jpg) no-repeat top center fixed/cover;
+    background: url(../img/resume_bg1.jpg) no-repeat top center fixed;
     position: relative;
     min-height: 100vh;
     color: #fff;
