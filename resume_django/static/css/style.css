@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 #feature {
     background: url(../img/resume_bg1.jpg) no-repeat top center fixed;
     position: relative;

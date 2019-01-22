@@ -3,6 +3,10 @@ from .models import Project
 
 
 def index(request):
-    projects = Project.objects.all()
-    context = {'projects': projects}
-    return render(request, 'pages/index.html', context)
+    return render(request, 'pages/index.html')
+
+
+def projects(request):
+    projects_list = projects = Project.objects.all()
+    context = {'projects': projects_list}
+    return render(request, 'pages/projects.html', context)

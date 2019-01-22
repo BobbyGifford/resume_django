@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="projects">
+        <div class="container">
+            <h1 class="text-white text-center">Projects</h1>
+            <div class="row">
+                {% for project in projects %}
+                    <div class="col-sm-12 col-md-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ project.main_photo.url }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ project.title }}</h5>
+                                <p class="card-text">{{ project.description }}</p>
+                                {# Check if link exists #}
+                                {% if project.live_link %}
+                                    <a href="{{ project.live_link }}" class="btn btn-info btn-block">Visit</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
