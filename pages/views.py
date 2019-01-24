@@ -7,6 +7,6 @@ def index(request):
 
 
 def projects(request):
-    projects_list = projects = Project.objects.all()
+    projects_list = Project.objects.all().order_by('rank')
     context = {'projects': projects_list}
     return render(request, 'pages/projects.html', context)
