@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="projects">
+        <div class="container text-white">
+            <h1 class="text-center">{{ project.title }}</h1>
+
+            <div class="col-md-8 offset-md-2">
+                <img src="{{ project.main_photo.url }}" alt="main" class="img-fluid"
+                     style="max-height: 50vh; margin: 0 auto;">
+
+                <h5>Tech Used:</h5>
+                {% for skill in skills %}
+                    <span class="btn btn-info">{{ skill }}</span>
+                {% endfor %}
+                <div>{{ project.description }}</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
