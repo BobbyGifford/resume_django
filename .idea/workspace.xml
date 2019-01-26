@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd00dec5-5641-4767-b88e-70b413cf5848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resume_django/static/img/icons8-resume-48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume_django/static/img/resume_bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume_django/static/img/resume_bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume_django/static/img/resume_bg3.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="cd00dec5-5641-4767-b88e-70b413cf5848" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resume_django/static/css/style.css">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="276">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,42 +74,6 @@
               <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="resume_django" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_django" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -132,17 +90,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Big Juice\Desktop\Python-Web\resume_django\resume_django\static\img" />
-      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static\img" />
-      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django" />
-      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Big Juice\Desktop\Python-Web\resume_django\resume_django\static\css" />
       <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static\img" />
       <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static\js" />
       <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Big Juice\Desktop\Python-Web\resume_django\resume_django\static\img" />
+      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static\img" />
+      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django" />
+      <recent name="C:\Users\Big Juice\PycharmProjects\resume_django\resume_django\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,17 +158,18 @@
       <workItem from="1548372060968" duration="569000" />
       <workItem from="1548372788752" duration="21000" />
       <workItem from="1548443004382" duration="15023000" />
-      <workItem from="1548465252585" duration="1641000" />
+      <workItem from="1548465252585" duration="1975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22104000" />
+    <option name="totallyTimeSpent" value="22438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,7 +183,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,17 +327,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resume_django/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
