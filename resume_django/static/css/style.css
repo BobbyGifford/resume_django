@@ -1,6 +1,6 @@
 .bg-green {
     /*background: #3E5151; !* fallback for old browsers *!*/
-    background: rgba(62, 81, 81, .5); /* Chrome 10-25, Safari 5.1-6 */
+    background: rgba(62, 81, 81, .2); /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to left, #DECBA4, #3E5151); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
 }
 
@@ -11,14 +11,14 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 97.4vh;
+    min-height: 100vh;
     color: #fff;
 }
 
 .feature .overlay {
     position: relative;
     left: 0;
-    min-height: 97.4vh;
+    min-height: 100vh;
     width: 100%;
     background: rgba(51, 51, 51, 0.2);
 }
