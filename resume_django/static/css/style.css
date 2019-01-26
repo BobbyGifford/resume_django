@@ -1,39 +1,55 @@
-#feature {
-    background: url(../img/resume_bg1.jpg) no-repeat top center fixed;
+.bg-green {
+    /*background: #3E5151; !* fallback for old browsers *!*/
+    background: rgba(62, 81, 81, .5); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #DECBA4, #3E5151); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+}
+
+.feature {
+    background: url(../img/resume_bg4.jpg) no-repeat center center fixed;
     background-size: cover;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 94vh;
+    min-height: 97.4vh;
     color: #fff;
 }
 
-#feature .overlay {
-    position: absolute;
+.feature .overlay {
+    position: relative;
     left: 0;
-    height: 94vh;
+    min-height: 97.4vh;
     width: 100%;
-    background: rgba(51, 51, 51, 0.8);
+    background: rgba(51, 51, 51, 0.2);
 }
 
-.projects {
-    padding-top: 5vh;
-    min-height: 91.5vh;
-    background-color: black;
+.skill_badge {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: rgba(62, 81, 81, .7); /* Chrome 10-25, Safari 5.1-6 */
 }
 
-#about {
-    color: #fff;
-    background-color: black;
-    min-height: 100vh;
+.btn-forest {
+    background-color: rgba(222, 203, 164, .5);
+    color: white;
 }
 
-#about .area {
-    padding-top: 20vh;
+.btn-forest:hover {
+    color: white;
+    background-color: rgba(222, 203, 164, .1);
 }
 
-#about .content {
-    padding: 1rem;
-    background: rgba(37, 37, 37, 0.8);
+.btn-visit {
+    color: white;
+    background-color: rgba(26, 117, 255, .5);
+}
+
+.btn-visit:hover {
+    color: white;
+    background-color: rgba(0, 61, 153, .5);
+}
+
+.bg-project-card {
+    background-color: rgba(62, 81, 81, .3);
 }

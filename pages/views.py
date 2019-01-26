@@ -19,3 +19,7 @@ def project(request, project_id):
     context = {'project': project_by_id,
                'skills': skills}
     return render(request, 'pages/project.html', context)
+
+
+def about(request):
+    return render(request, 'pages/about.html')
