@@ -1,23 +1,30 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="container">
-        <h1 class="display-4 text-white text-center py-3">Projects</h1>
-        <div class="row">
-            {% for project in projects %}
-                <div class="col-sm-12 col-md-4 mb-4">
-                    <div class="bg-project-card text-center" style="height: 20rem">
-                        <h5 class="lead">{{ project.title }}</h5>
-                        <img class="img-fluid" src="{{ project.main_photo.url }}" alt="main" style="max-height: 20vh">
-                        <div class="my-2">
-                            <a href="{% url 'project' project.id %}" class="btn btn-forest">Details</a>
-                            {# Check if link exists #}
-                            {% if project.live_link %}
-                                <a href="{{ project.live_link }}" class="btn btn-visit">Visit</a>
-                            {% endif %}
+    <div class="feature">
+        <div class="overlay">
+            {% include 'partials/_navbar.html' %}
+
+            <div class="container">
+                <h1 class="display-4 text-white text-center py-3">Projects</h1>
+                <div class="row">
+                    {% for project in projects %}
+                        <div class="col-sm-12 col-md-4 mb-4">
+                            <div class="bg-project-card text-center" style="height: 20rem">
+                                <h5 class="lead">{{ project.title }}</h5>
+                                <img class="img-fluid" src="{{ project.main_photo.url }}" alt="main"
+                                     style="max-height: 20vh">
+                                <div class="my-2">
+                                    <a href="{% url 'project' project.id %}" class="btn btn-forest">Details</a>
+                                    {# Check if link exists #}
+                                    {% if project.live_link %}
+                                        <a href="{{ project.live_link }}" class="btn btn-visit">Visit</a>
+                                    {% endif %}
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -3,16 +3,21 @@
 {% load static %}
 
 {% block content %}
-    <div class="container text-center">
-        <div class="p-5">
-            <h1 class="display-4 mb-4">
-                Bobby Gifford
-            </h1>
-            <img src="{% static 'img/profile_pic.jpg' %}" style="height: 40vh">
-            <br>
-            <br>
-            <a href="{% url 'projects' %}" class="btn btn-forest">Projects</a>
-            <a href="{% url 'about' %}" class="btn btn-forest">About Me</a>
+    <div class="feature">
+        <div class="overlay">
+            {% include 'partials/_navbar.html' %}
+
+            <div class="container text-center">
+                <div class="p-5">
+                    <h1 class="display-4 mb-4">
+                        I'm Bobby Gifford
+                    </h1>
+                    <a href="{% url 'projects' %}" class="btn btn-forest">Check Out My Projects</a>
+                    <br>
+                    <br>
+                    <a href="{% url 'about' %}" class="btn btn-forest">Learn More About Me</a>
+                </div>
+            </div>
         </div>
     </div>
 

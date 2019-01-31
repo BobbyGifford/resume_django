@@ -1,3 +1,7 @@
+#main {
+    font-family: 'Raleway', sans-serif;
+}
+
 .bg-green {
     /*background: #3E5151; !* fallback for old browsers *!*/
     background: rgba(62, 81, 81, .2); /* Chrome 10-25, Safari 5.1-6 */
@@ -23,9 +27,42 @@
     background: rgba(51, 51, 51, 0.2);
 }
 
+.about {
+    background: url(../img/about_forest.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 70vh;
+    color: #fff;
+}
+
+
+.about .overlay {
+    position: relative;
+    left: 0;
+    min-height: 70vh;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.2);
+}
+
+.about-desc {
+    padding: 12vh 0 0 15vw;
+    min-height: 30vh;
+    background-color: rgb(222, 203, 164);
+}
+
+.about-me {
+    padding-top: 5vh;
+    height: 65vh;
+    background-color: rgba(222, 203, 164, .5);
+}
+
+
+
 .skill_badge {
     padding: 10px;
-    margin: 10px 0;
     border-radius: 10px;
     background: rgba(62, 81, 81, .7); /* Chrome 10-25, Safari 5.1-6 */
 }

@@ -8,6 +8,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Custom -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- Font Awesome -->
@@ -19,17 +20,11 @@
 
     <title>Bobby's Resume</title>
 </head>
-<body>
+<body id="main">
 
-<div class="feature">
-    <div class="overlay">
-        {% include 'partials/_navbar.html' %}
+{% block content %}
 
-        {% block content %}
-
-        {% endblock %}
-    </div>
-</div>
+{% endblock %}
 
 
 <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
