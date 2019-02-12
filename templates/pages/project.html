@@ -11,6 +11,12 @@
                 <img src="{{ project.main_photo.url }}" alt="main" class="mb-2"
                      style="max-height: 50vh; display: block; margin-left: auto; margin-right: auto">
 
+                {% if project.side_note %}
+                    <div class="text-center text-danger">
+                        <h2>{{ project.side_note }}</h2>
+                    </div>
+                {% endif %}
+
                 <div style="margin-left: 10vw">
                     <h5>Tech Used:</h5>
                     <div class="my-4">
